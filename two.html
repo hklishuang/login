@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="./lib/css/weui.min.css">
+    <link rel="stylesheet" href="./lib/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="./two.css">
+</head>
+
+<body>
+    <div class="content clearfix">
+        <header>
+            <div class="top">
+                <span>
+                    <!-- <img src="" alt="图片"> -->
+                </span>
+            </div>
+        </header>
+        <div class="form">
+            <div class="main">
+                <form action="" id="from1">
+                    <div class="weui-cell">
+                        <div class="weui-cell__hd">
+                            <label class="weui-label">
+                                <i class="iconfont">&#xe660;</i>
+                            </label>
+                        </div>
+                        <div class="weui-cell__bd">
+                            <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入qq号">
+                        </div>
+                    </div>
+                    <div class="weui-cell">
+                        <div class="weui-cell__hd">
+                            <label class="weui-label">
+                                <i class="iconfont">&#xe60d;</i>
+                            </label>
+                        </div>
+                        <div class="weui-cell__bd">
+                            <input class="weui-input" type="password" placeholder="请输密码">
+                        </div>
+                    </div>
+                    <div class="forget">
+                        <span>
+                            <a href="javascript:;">忘记密码?</a>
+                        </span>
+                    </div>
+                    <div class="weui-btn-area">
+                        <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">登录</a>
+                    </div>
+                </form>
+            </div>
+            <div class="login"> 
+            </div>
+            <div class="login">
+                <div id="login">
+                    <a href="javascript:;" id="show-toast" class="weui-btn weui-btn_primary">显示 Toast 成功</a>
+                </div>
+            </div>
+            <div class="weui-flex">
+                <div class="weui-flex__item">
+                    <div class="placeholder">随便看看</div>
+                </div>
+                <div class="weui-flex__item">
+                    <div class="placeholder">注册</div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="weui-footer">
+                <p class="weui-footer__links">
+                    <a href="javascript:void(0);" class="weui-footer__link">关联社交账号快速登录</a>
+                </p>
+                <div class="else">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="iconfont">&#xe7e5;</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="iconfont">&#xe63d;</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="iconfont">&#xe60a;</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./lib/js/jquery.min.js"></script>
+    <script src="./lib/js/jquery-weui.min.js"></script>
+    <script src="two.js"></script>
+</body>
+
+</html>
